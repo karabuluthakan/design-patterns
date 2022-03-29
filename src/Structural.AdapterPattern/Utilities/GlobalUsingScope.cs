@@ -1,0 +1,9 @@
+global using Structural.AdapterPattern.Abstract;
+global using Ardalis.GuardClauses;
+global using Microsoft.Extensions.DependencyInjection;
+global using AutoMapper;
+global using Structural.AdapterPattern.DataTransferObjects;
+global using Structural.AdapterPattern.Models;
+global using Mapster;
+global using Structural.AdapterPattern.AutoMapper;
+global using Structural.AdapterPattern.Mapster;
