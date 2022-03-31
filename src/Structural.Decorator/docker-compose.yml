@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  redis:
+    image: redis:alpine
+  api:
+    image: ${DOCKER_REGISTRY-}decoratorapi
+    build:
+      context: ..
+      dockerfile: Structural.Decorator/Dockerfile
+
+volumes:
+  redis:
+    driver: local

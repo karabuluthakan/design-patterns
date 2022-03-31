@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  redis:
+    container_name: structural_decorator_cache
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass asiriZorSifre
+    volumes:
+      - redis:/data
+  
+  api:
+    container_name: structural_decorator_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings:Redis=redis
+    depends_on:
+      - redis
