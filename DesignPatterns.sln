@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.AdapterPattern",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator", "src\Structural.Decorator\Structural.Decorator.csproj", "{A775AA3C-67CA-46E3-92D1-1EAD0FB755E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Builder", "src\Creational.Builder\Creational.Builder.csproj", "{E64403F4-392E-4B84-AC64-AD29F68CBB95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,7 @@ Global
 		{EC308BB1-3A5C-4A80-974F-4FC65321A14B} = {E1E1E126-86BC-423E-94F1-AA5508FBA22E}
 		{AB3E1EA4-F22C-4CB5-8E2C-F610F8A3F6A7} = {E1E1E126-86BC-423E-94F1-AA5508FBA22E}
 		{A775AA3C-67CA-46E3-92D1-1EAD0FB755E8} = {E1E1E126-86BC-423E-94F1-AA5508FBA22E}
+		{E64403F4-392E-4B84-AC64-AD29F68CBB95} = {E1E1E126-86BC-423E-94F1-AA5508FBA22E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3B060FEC-038E-4054-8159-204EADEBEA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +41,9 @@ Global
 		{A775AA3C-67CA-46E3-92D1-1EAD0FB755E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A775AA3C-67CA-46E3-92D1-1EAD0FB755E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A775AA3C-67CA-46E3-92D1-1EAD0FB755E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64403F4-392E-4B84-AC64-AD29F68CBB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64403F4-392E-4B84-AC64-AD29F68CBB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64403F4-392E-4B84-AC64-AD29F68CBB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64403F4-392E-4B84-AC64-AD29F68CBB95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
