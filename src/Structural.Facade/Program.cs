@@ -11,6 +11,7 @@ var customerId = Guid.NewGuid().ToString("N");
 var productId = Guid.NewGuid().ToString("N");
 var random = new Random();
 var quantity = random.Next(1, 5);
+Console.WriteLine(quantity);
 var request = new BasketRequest(customerId, productId, quantity);
 
 var facade = services.BuildServiceProvider().GetRequiredService<IBasketFacade>();

@@ -7,7 +7,7 @@ public class ProductProvider : IProductProvider
         return new Faker<Product>()
             .RuleFor(x => x.Id, productId)
             .RuleFor(x => x.Name, f => f.Commerce.ProductName())
-            .RuleFor(x => x.Price, f => f.Random.Decimal())
+            .RuleFor(x => x.Price, f => f.Finance.Amount())
             .Generate();
     }
 }
