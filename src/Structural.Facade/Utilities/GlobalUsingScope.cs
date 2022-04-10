@@ -1,0 +1,11 @@
+global using Structural.Facade.ValueObjects.Abstract;
+global using Structural.Facade.Requests.Abstract;
+global using Structural.Facade.Entities;
+global using Structural.Facade.Providers.Abstract;
+global using Structural.Facade.ValueObjects;
+global using Microsoft.Extensions.DependencyInjection;
+global using Structural.Facade.Pattern.Abstract;
+global using Bogus;
+global using Structural.Facade.Requests;
+global using Structural.Facade.Providers;
+global using Structural.Facade.Pattern;
